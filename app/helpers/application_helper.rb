@@ -41,4 +41,15 @@ module ApplicationHelper
   def informativo
     link_to "Informativo \n", informativos_url
   end
+
+  def buttons
+    items = [voltar]
+    content_tag :ul, :class => "nav" do
+      items.collect { |item| concat item}
+    end
+  end
+
+    def voltar
+      link_to "Voltar \n", root_path
+    end
 end
