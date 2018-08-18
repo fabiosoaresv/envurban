@@ -1,9 +1,43 @@
-<p id="notice"><%= notice %></p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <h1>E-mail cadastrado com sucesso, obrigado!</h1>
+    <p>
+      <strong>Email:</strong>
+      <%= @informativo.email %>
+    </p>
+    <%= link_to 'Editar', edit_informativo_path(@informativo) %> |
+    <%= link_to 'Voltar', informativos_path %>
 
-<p>
-  <strong>Email:</strong>
-  <%= @informativo.email %>
-</p>
+    <%= csrf_meta_tags %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+  <body>
+    <div class="container">
+      <%= yield %>
+    </div>
+  </body>
+</html>
 
-<%= link_to 'Edit', edit_informativo_path(@informativo) %> |
-<%= link_to 'Back', informativos_path %>
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+   <%= link_to "envurban", root_path, id: "logo" %>
+   <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <%= menu %>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<footer class="footer">
+  <small>
+    All rights reserved by @fabiosoaresv | Credits to @aguiroz @diogofelix @marcosantonio
+  </small>
+  <nav>
+    <ul>
+      <%= menu %>
+    </ul>
+  </nav>
+</footer>
