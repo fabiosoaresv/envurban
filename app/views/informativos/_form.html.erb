@@ -1,0 +1,22 @@
+<%= form_with(model: informativo, local: true) do |form| %>
+  <% if informativo.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(informativo.errors.count, "error") %> prohibited this informativo from being saved:</h2>
+
+      <ul>
+      <% informativo.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :email %>
+    <%= form.text_field :email %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
