@@ -8,19 +8,19 @@ module ApplicationHelper
   end
 
   def inicio
-    link_to "Home |", poluicao_index_path
+    link_to "Home | ", poluicao_index_path
   end
 
   def poluicao
-    link_to "Poluição |", poluicao_index_path
+    link_to "Poluição | ", poluicao_index_path
   end
 
   def temperatura
-    link_to "Temperatura |", temperatura_index_path
+    link_to "Temperatura | ", temperatura_index_path
   end
 
   def transito
-    link_to "Trânsito |", transito_index_path
+    link_to "Trânsito | ", transito_index_path
   end
 
   def sobre
