@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <header class="nav navbar navbar-fixed-top navbar-inverse">
+  <header class=" navbar-fixed-top navbar-inverse">
     <div class="container">
       <%= link_to "envurban", root_path, id: "logo" %>
     </div>
@@ -16,10 +16,12 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
   </body>
 
+  <%= link_to image_tag("/images/news-letter.png", height: "100", width: "250"), new_informativo_path %>
+
   <footer class="footer">
     <small>
       <center>
-        All rights reserved by @fabiosoaresv | Credits to @aguiroz @diogofelix @marcosantonio
+        All rights reserved by @fabiosoaresv | Credits to @aguiroz @diogofelix @marcosaabarbosa
       </center>
     </small>
   </footer>

@@ -52,6 +52,10 @@ p {
 
 /* header */
 
+#menu {
+
+}
+
 #logo {
   float: left;
   margin-right: 10px;
@@ -59,7 +63,7 @@ p {
   color: #fff;
   text-transform: uppercase;
   letter-spacing: -1px;
-  padding-top: 15px;
+  padding-top: 28px;
   font-weight: bold;
 }
 
@@ -68,8 +72,12 @@ p {
   text-decoration: none;
 }
 
+#images {
+  border-radius: 20px;
+}
+
 footer {
-  margin-top: 45px;
+  margin-top: 40px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #777;
