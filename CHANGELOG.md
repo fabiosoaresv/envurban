@@ -1,5 +1,6 @@
 # PRÓXIMA
 ## Funcionalidades
+* Ajustado layout css
 * Adicionado imagem para news letter
 * Adicionado ícones de redes sociais
 * Adicionado informações na view Sobre
