@@ -28,7 +28,7 @@ class InformativosController < ApplicationController
 
     respond_to do |format|
       if @informativo.save
-        format.html { redirect_to @informativo, notice: 'Informativo was successfully created.' }
+        format.html { redirect_to @informativo, notice: 'Adicionado com sucesso, obrigado.' }
         format.json { render :show, status: :created, location: @informativo }
       else
         format.html { render :new }
@@ -42,7 +42,7 @@ class InformativosController < ApplicationController
   def update
     respond_to do |format|
       if @informativo.update(informativo_params)
-        format.html { redirect_to @informativo, notice: 'Informativo was successfully updated.' }
+        format.html { redirect_to @informativo, notice: 'Atualizado com sucesso, obrigado' }
         format.json { render :show, status: :ok, location: @informativo }
       else
         format.html { render :edit }
@@ -56,7 +56,7 @@ class InformativosController < ApplicationController
   def destroy
     @informativo.destroy
     respond_to do |format|
-      format.html { redirect_to informativos_url, notice: 'Informativo was successfully destroyed.' }
+      format.html { redirect_to informativos_url, notice: 'Deletado com sucesso, obrigado' }
       format.json { head :no_content }
     end
   end
