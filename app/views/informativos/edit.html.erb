@@ -1,43 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <header class=" navbar-fixed-top navbar-inverse">
+    <div class="container">
+      <%= link_to "envurban", root_path, id: "logo" %>
+    </div>
+    <%= menu %>
+  </header>
+
+  <body>
     <h1>Edite seu e-mail</h1>
     <p>
       <strong>Email:</strong>
       <%= @informativo.email %>
     </p>
     <%= render 'form', informativo: @informativo %>
-    <%= link_to 'Voltar', informativos_path %>
-
-    <%= csrf_meta_tags %>
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
-  <body>
-    <div class="container">
-      <%= yield %>
-    </div>
+    <%= voltar %>
   </body>
-</html>
 
-<header class="navbar navbar-fixed-top navbar-inverse">
-  <div class="container">
-   <%= link_to "envurban", root_path, id: "logo" %>
-   <nav>
-      <ul class="nav navbar-nav navbar-right">
-        <%= menu %>
-      </ul>
-    </nav>
-  </div>
-</header>
-
-<footer class="footer">
-  <small>
-    All rights reserved by @fabiosoaresv | Credits to @aguiroz @diogofelix @marcosantonio
-  </small>
-  <nav>
-    <ul>
-      <%= menu %>
-    </ul>
-  </nav>
-</footer>
+  <footer class="footer">
+    <small>
+      <center>
+        All rights reserved by @fabiosoaresv | Credits to @aguiroz @diogofelix @marcosaabarbosa
+      </center>
+    </small>
+  </footer>
+  </html>

@@ -4,17 +4,14 @@
     <div class="container">
       <%= link_to "envurban", root_path, id: "logo" %>
     </div>
+    <%= menu %>
   </header>
-
-  <%= menu %>
 
   <body>
     <h1>Trânsito</h1>
-    <%= csrf_meta_tags %>
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
   </body>
+
+  <%= link_to image_tag("/images/news-letter.png", height: "100", width: "250"), new_informativo_path %>
 
   <footer class="footer">
     <small>
