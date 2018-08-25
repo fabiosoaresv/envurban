@@ -1,5 +1,10 @@
 # PRÓXIMA
 ## Funcionalidades
+* Ajustado botões para exibiição mobile
+* Ajustado textbox para exibição mobile
+* Ajustado views de e-mail
+* Ajustado css para arrumar o título
+* Ajustado menu e título
 * Ajustado layout css
 * Adicionado imagem para news letter
 * Adicionado ícones de redes sociais
