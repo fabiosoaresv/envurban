@@ -1,5 +1,8 @@
 # PRÓXIMA
 ## Funcionalidades
+* Adicionado os dados do tema para view Poluição
+* Adicionado os dados do tema para view Temperatura
+* Adicionado scss para texto ficar centralizado nas views
 * Ajustado botões para exibiição mobile
 * Ajustado textbox para exibição mobile
 * Ajustado views de e-mail
