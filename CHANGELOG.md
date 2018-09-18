@@ -1,4 +1,10 @@
 # PRÓXIMA
+# v3.0
+## Funcionalidades
+
+## Correções de Bug
+
+# v2.0
 ## Funcionalidades
 * Centralizado a view Sobre
 * Adicionado imagens na view Trânsito
