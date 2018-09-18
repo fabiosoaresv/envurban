@@ -1,5 +1,10 @@
 # PRÓXIMA
 ## Funcionalidades
+
+## Correções de Bug
+
+# v2.0
+## Funcionalidades
 * Centralizado a view Sobre
 * Adicionado imagens na view Trânsito
 * Adicionado os dados do tema para view Trânsito
