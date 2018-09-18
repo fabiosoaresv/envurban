@@ -1,5 +1,8 @@
 # PRÓXIMA
 ## Funcionalidades
+* Centralizado a view Sobre
+* Adicionado imagens na view Trânsito
+* Adicionado os dados do tema para view Trânsito
 * Adicionado os dados do tema para view Poluição
 * Adicionado os dados do tema para view Temperatura
 * Adicionado scss para texto ficar centralizado nas views
